@@ -1,0 +1,13 @@
+.calculate{
+    display: inline-flex;
+    padding: var(--main-system-16-px, 16px) var(--main-system-24-px, 24px);
+    justify-content: center;
+    align-items: center;
+    gap: var(--main-system-8-px, 8px);
+    border-radius: var(--roundness-round-inside, 6px);
+    background: var(--Gradient_Primary, linear-gradient(270deg, #985076 -80.41%, #B81D6F -27.59%, #FE8745 100.7%));
+    box-shadow: 0px 1px 2px 0px rgba(16, 24, 40, 0.04);
+    width: 156px;
+    height: 54px;
+    color: #FFF;
+}

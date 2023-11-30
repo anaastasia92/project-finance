@@ -1,0 +1,21 @@
+.right{
+    float: right;
+    width: 40%;
+    height: 432px;
+    border-radius: 14px;
+    background: linear-gradient(231deg, rgba(12, 10, 100, 0.89) 1.56%, rgba(55, 48, 107, 0.89) 99.98%);
+    backdrop-filter: blur(12px);
+    padding: 36px 58px 36px 58px;
+    margin-top: 70px;
+    margin-right: 48px;
+}
+
+h1{
+  color: #FFF;
+  text-align: center;
+  font-family: Inter;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 30px; /* 125% */
+}

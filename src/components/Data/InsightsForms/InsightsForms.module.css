@@ -1,0 +1,37 @@
+.formMiddle{
+    display: flex;
+    color: #FFF;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    width: 100%;
+    flex-wrap: wrap;
+    align-items: end;
+    }
+    
+    
+    .labelMiddle{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    /* height: 42px;  */
+    flex-shrink: 0; 
+   
+    }
+    
+    .labelMiddle input{
+        border-radius: 4px;
+        background: #706CD0;
+        height: 32px;
+        flex-shrink: 0; 
+        padding: 6px 12px;
+    }
+
+input::placeholder {
+    color: rgba(28, 9, 60, 0.60);
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px; /* 214.286% */
+}

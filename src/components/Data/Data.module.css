@@ -1,0 +1,165 @@
+.main{
+    min-height: 100vh;
+    /* margin: 48px; */
+}
+
+.up{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    background-image: url(../images/hand.png);
+    background-size: 492.88px;
+    background-repeat: no-repeat;
+    background-position: top 100px right 250px;
+}
+.left{
+    width: 60%;
+    margin-left: 48px;
+}
+
+.graph1{
+    display: flex;
+    align-items: center;
+}
+
+.diagr1{
+    width: 100%;
+}
+
+.center{
+    display: flex;
+    width: 100%;
+    gap: 24px;
+}
+
+.graph2{
+    width: 60%;
+    position: relative;
+    top: 195px;
+}
+
+.left p{
+    color: #FFF;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px; /* 150% */
+    text-align: left;
+}
+
+.left h1{
+color: #FFF;
+font-family: Inter;
+font-size: 48px;
+font-style: normal;
+font-weight: 800;
+line-height: 68px; /* 141.667% */
+text-align: left;
+}
+
+.left h2{
+color: #FFF;
+font-family: Inter;
+font-size: 24px;
+font-style: normal;
+font-weight: 300;
+line-height: 30px; /* 125% */
+letter-spacing: 1.44px;
+text-transform: uppercase;
+}
+
+
+.middle{
+ margin-left: 48px;
+}
+
+.middle h1{
+  color: #FFF;
+  text-align: left;
+  font-family: Inter;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 30px; /* 125% */
+
+}
+
+h2{
+color: #FFF;
+font-family: Inter;
+font-size: 24px;
+font-style: normal;
+font-weight: 300;
+line-height: 30px; /* 125% */
+letter-spacing: 1.44px;
+text-transform: uppercase;
+margin-bottom: 12px;
+}
+
+
+.wrapperBottom{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.bottom{
+    display: flex;
+    width: 100%;
+}
+
+.bottom .left{
+    width: 40%;
+}
+
+.bottom .left p{
+color: #FFF;
+font-family: Inter;
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: 30px; /* 150% */
+}
+
+.number{
+color: #D45190;
+font-family: Inter;
+font-size: 32px;
+font-style: normal;
+font-weight: 400;
+line-height: 30px; /* 93.75% */
+margin-top: 44px;
+}
+
+.read{
+color: #D45190;
+font-family: Inter;
+font-size: 32px;
+font-style: normal;
+font-weight: 400;
+line-height: 30px; /* 93.75% */
+margin-top: 32px;
+}
+
+.text{
+    margin-top: 80px;
+    margin-left: 48px;
+}
+
+.text h1{
+color: #FFF;
+font-family: Inter;
+font-size: 48px;
+font-style: normal;
+font-weight: 800;
+line-height: 68px; /* 141.667% */
+text-align: left;
+}
+
+.bottom .right{
+ width: 60%;
+ display: flex;
+ /* justify-content: right;
+ position: relative; */
+}
