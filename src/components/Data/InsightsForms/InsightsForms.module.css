@@ -1,12 +1,13 @@
 .formMiddle{
     display: flex;
     color: #FFF;
-    justify-content: center;
-    align-items: center;
+    /* justify-content: center;
+    align-items: center; */
     gap: 40px;
     width: 100%;
     flex-wrap: wrap;
     align-items: end;
+    margin-left: 48px;
     }
     
     

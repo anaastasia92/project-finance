@@ -37,12 +37,8 @@ export default function Data() {
                     <div className={csl.graph2}>
                         <Graph2/>
                     </div>
-                  
-                        <TablePrice/>  
-                    
-                     
-                </div>
-                 
+                        <TablePrice/>      
+                </div>    
             <div className={csl.wrapperBottom}>
             <div className={csl.text}>
                 <h2>LATEST STOCK MARKET INFORMATION</h2>

@@ -1,0 +1,111 @@
+
+.analyt{
+    /* margin-top: 100px; */
+    color: #FFF;
+    font-family: Inter;
+    font-size: 74px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 80px; /* 108.108% */
+    margin: 100px 0 40px 48px;
+}
+.anup{
+    display: flex;
+    width: 100%;
+    gap: 50px;
+}
+
+.box{ 
+    display: flex;
+    width: 50%;
+}
+
+.boxA, .boxG{
+    display: flex;
+    flex-direction: column;
+}
+
+.box2, .box1{
+    height: 403px;
+    flex-shrink: 0;
+    border-radius: 14px;
+    background: linear-gradient(153deg, #0C0A64 55.66%, #37306B 120.11%);
+    backdrop-filter: blur(12px);
+    margin: 40px 0 0 40px;
+    padding-right: 20px;
+}
+.gold, .appl{
+    color: #FFF;
+    font-family: Inter;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px; /* 62.5% */
+    margin-left: 40px;
+    padding-top: 40px;
+}
+.comex, .nas{
+    color: #FFF;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px; /* 150% */
+    margin: 40px 0 0 40px;
+}
+.currency{
+    color: #FFF;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px; /* 187.5% */
+    margin: 0 0 0 40px;
+}
+.number{
+    display: flex;
+    gap: 20px;
+    margin: 40px 0 0 40px;
+}
+.numb1{
+    display: flex;
+    flex-direction: column;
+    color: #D45190;
+    font-family: Inter;
+    font-size: 56px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 30px; /* 53.571% */
+}
+.numb2{
+    display: flex;
+    flex-direction: column;
+    color: #CB5732;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 30px; /* 150% */
+}
+
+.numb3{
+    display: flex;
+    flex-direction: column;
+    color: #0D9071;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 30px; /* 150% */
+}
+
+.minMax{
+    color: #FFF;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 30px; /* 150% */
+    gap: 20px;
+    margin: 40px 0 0 40px;
+}

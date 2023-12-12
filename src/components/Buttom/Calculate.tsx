@@ -1,11 +1,11 @@
 import csl from './Calculate.module.css'
 
-export default function Calculate(){
+export default function Calculate({onClick}:{onClick: () => void}){
+    
     return(
 
-        <div>
-            <button className={csl.calculate}>Calculate</button>
-        </div>
+            <button onClick={onClick}  className={csl.calculate}>Calculate</button>
+
 
     )
 }

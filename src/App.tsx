@@ -16,8 +16,6 @@ export default function App() {
     <div className="App">
       <div className='content'>
       <Header/>
-      
-
     <Routes>
       <Route path="/" element={ <Home/> } />
       <Route path="statistics" element={ <Statistics/> } />

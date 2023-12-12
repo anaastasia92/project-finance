@@ -27,8 +27,7 @@ export default function Slogan(){
 <section className={cls.box}>
     <div className={cls.statistic}>
         <p>EXPLORING SECURITIES TRENDS</p>
-        <h3>Statistics</h3>
-        
+        <h3>Statistics</h3>    
     </div>
     <div className={cls.analysis}>
         <p>SMART INVESTMENT INSIGHTS</p>

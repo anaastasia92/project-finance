@@ -1,0 +1,91 @@
+.contact{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    min-height: calc(100vh - 96px);
+    margin-bottom: 48px;
+}
+.text{
+    width: 65%;
+    padding-top: 155px;
+    margin-left: 48px;
+}
+.con{
+    color: #FFF;
+    font-family: Inter;
+    font-size: 74px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 80px; /* 108.108% */
+    margin-bottom: 12px;
+}
+
+.our{
+    color: #FFF;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 30px; /* 125% */
+    letter-spacing: 1.44px;
+    text-transform: uppercase;
+    margin-bottom: 12px;
+}
+
+.help{
+    color: #FFF;
+    font-family: Inter;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 68px; /* 141.667% */
+    margin-bottom: 12px;
+}
+
+.paragr{
+    color: #FFF;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px; /* 150% */
+    text-align: justify;
+    margin-bottom: 12px;
+}
+
+.section{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 24px;
+    max-width: 100%;
+    margin: 100px 48px 81px 48px;
+}
+
+.mail, .phone, .adres{
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center;*/
+    align-items: center; 
+    border-radius: 14px;
+    background: #383393;
+    border: 2px solid black;
+    flex: 1;
+    width: 30%;
+    
+}
+.section p{
+    color: #FFF;
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 68px; 
+    margin: 0;
+}
+.envelope, .info, .map{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

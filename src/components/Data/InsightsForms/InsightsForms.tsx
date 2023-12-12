@@ -31,7 +31,7 @@ export default function InightsForms(){
                   <input type='number' placeholder="5" />
                 </div>
                 
-                <Calculate/>
+                <Calculate onClick={()=>{}}/>
 
         </form>
     )
