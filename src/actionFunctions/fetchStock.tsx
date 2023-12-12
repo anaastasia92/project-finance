@@ -1,4 +1,5 @@
 import { putStock } from "../reducers/stockReducer";
+import { base_url } from "../units/constants";
 
 export const fetchStocks = (stock:{first:string, second:string, from:string, to:string}) => {
     console.log(stock)
@@ -6,19 +7,10 @@ export const fetchStocks = (stock:{first:string, second:string, from:string, to:
         dispatch(putStock('Pending...'));
         try {
             const response = await fetch(
-            `https://finstats.herokuapp.com/index/correlation`,
-            // `https://finstats.herokuapp.com/register`,
+            `${base_url}/communication/index/correlation`,
             {
             method: 'POST',
             body:JSON.stringify(
-                // {
-                //     "login": "JavaFan",
-                //     "firstName": "John",
-                //     "lastName": "Smith",
-                //     "roles": [
-                //         "USER"
-                //     ]
-                // }
                 {
                 indexs:[stock.first, stock.second],
                 from: stock.from,
