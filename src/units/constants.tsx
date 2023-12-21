@@ -1,1 +1,1 @@
-export const base_url = 'https://finstats.herokuapp.com'
+export const baseUrl = 'https://finstats.herokuapp.com'
